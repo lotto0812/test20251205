@@ -1,0 +1,18 @@
+# PDF QA PoC - 依存パッケージ一覧
+# pip install -r requirements.txt でインストールしてください
+
+# Web UI フレームワーク
+streamlit>=1.28.0
+
+# PDF テキスト抽出
+pdfplumber>=0.10.0
+
+# 埋め込みモデル（日本語対応）
+sentence-transformers>=2.2.0
+
+# 数値計算
+numpy>=1.24.0
+
+# PyTorch（sentence-transformersの依存）
+torch>=2.0.0
+
